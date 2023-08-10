@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: black;
+    padding: 20px 0px;
+}
+
+
+h1,
+h2 {
+    font-family: 'Arvo', serif;
+}
+
+li,
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width: 68%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    background-color: white;
+}
+
+
+
+.container .column_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f4ec;
+    padding: 20px 30px 20px 30px;
+}
+
+.container .column_two {
+    padding: 20px 30px 0px 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .column_two .navbar ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    align-items: center;
+}
+
+.container .column_two .navbar ul button {
+    padding: 8px 25px;
+    background: none;
+    border-radius: 20px;
+}
+
+.container .column_two .column_two_content_two {
+    margin-top: 50px;
+}
+
+.container .column_two .column_two_content_two span {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .column_two .column_two_content_two span h1 {
+    font-size: 45px;
+}
+
+.container .column_two .column_two_content_three {
+    margin-top: 30px;
+}
+
+.container .column_two .column_two_content_three span {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .column_two .column_two_content_three span ul p {
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+.column_two_content_four {
+    margin-top: 50px;
+    padding: 20px 0px 0px 0px;
+}
+
+.column_two_content_four div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.column_two_content_four div h1 {
+    font-size: 22px;
+}
+
+.column_two_content_four div span {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
